@@ -30,15 +30,6 @@
                     <configFile>${project.build.directory}/classes/flyway/sit.properties</configFile>
                     <locations>flyway/sql/</locations>
                 </configuration>
-                <executions>
-                    <execution>
-                        <id>migrate</id>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>migrate</goal>
-                        </goals>
-                    </execution>
-                </executions>
             </plugin>
         </plugins>
 
