@@ -2,11 +2,19 @@
 eTreasury 配置管理.
 示例如何示例 flyway 插件做数据库变更管理。
 
+### 结果
+免费版不支持 Oracle 11 
 
 
 
-首次使用要对DB建立基线:  
-mvn compile flyway:baseline
+
+### 基本命令:  
+- mvn compile flyway:baseline
+- mvn compile flyway:migrate 
+- mvn compile flyway:repair 
+- mvn compile flyway:clean 
+
+
 
 
 ### 注意：
